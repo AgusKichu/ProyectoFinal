@@ -1,0 +1,228 @@
+
+
+@media (max-width: 768px) { /* menor a 768px */
+    /*
+    ! -------------------- MENÚ DESKTOP -------------------- */
+    #menu-desktop {
+        display: none;
+    }
+
+    /*
+    ! -------------------- PÁGINA INICIO -------------------- */
+
+    #main-shop-desktop {
+        display: none;
+    }
+
+    /*
+    ! -------------------- PÁGINA PRODUCTO -------------------- */
+    #body-producto-brampton, #body-producto-kamloops, #body-producto-quebec,
+    #body-producto-regina, #body-producto-toronto, #body-producto-vancouver,
+    #body-producto-candleskit, #body-producto-duoambar, #body-producto-duocement,
+    #body-producto-barrie, #body-producto-burnaby, #body-producto-calgary, #body-producto-halminton,
+    #body-producto-duomontreal, #body-producto-oshawa, #body-producto-surrey, #body-producto-whistler,
+    #body-producto-windsor, #body-producto-gc2500, #body-producto-gc3000, #body-producto-gc5000 {
+        background-image: none;
+
+        #main-producto-desktop {
+            display: none;
+        }
+    }
+
+    /*
+    ! -------------------- PÁGINA CONTACTO -------------------- */
+    #body-contacto {
+        #header-contacto-desktop {
+            display: none;
+        }
+    }
+
+    /*
+    ! -------------------- PÁGINA CARRITO -------------------- */
+
+    #body-carrito {
+        background-image: none;
+        background-color: #f5f5f5;
+
+        #main-carrito-desktop {
+            display: none;
+        }
+    }
+
+    /*
+    ! -------------------- PIE DE PÁGINA -------------------- */
+    #footer-desktop {
+        display: none;
+    }
+    
+/*
+! --- CIERRE MEDIA --- */
+}
+
+
+@media (min-width: 500px) { /* mayor a 500px */
+
+    /*
+    ! -------------------- PÁGINA PRODUCTO -------------------- */
+    #body-producto-brampton, #body-producto-kamloops, #body-producto-quebec,
+    #body-producto-regina, #body-producto-toronto, #body-producto-vancouver,
+    #body-producto-candleskit, #body-producto-duoambar, #body-producto-duocement,
+    #body-producto-barrie, #body-producto-burnaby, #body-producto-calgary, #body-producto-halminton,
+    #body-producto-duomontreal, #body-producto-oshawa, #body-producto-surrey, #body-producto-whistler,
+    #body-producto-windsor, #body-producto-gc2500, #body-producto-gc3000, #body-producto-gc5000 {
+
+        #header-surrey, #header-barrie, #header-calgary, #header-burnaby,
+        #header-halminton, #header-duomontreal, #header-oshawa, #header-whistler,
+        #header-windsor, #header-duocement, #header-candleskit, #header-duoambar,
+        #header-brampton, #header-kamloops, #header-quebec, #header-regina, #header-toronto,
+        #header-vancouver, #header-gc2500, #header-gc3000, #header-gc5000 {
+            background-position: center;
+            background-attachment: scroll;
+            height: 62vh;
+        }
+        
+        #main-producto, #main-giftcard {
+            margin: 3ex 3ex;
+        }
+    }
+
+    /*
+    ! -------------------- PÁGINA CARRITO -------------------- */
+    #body-carrito {
+        #main-carrito {
+            .container-titulo-separador {
+                h1 {
+                    font-size: 3ex;
+                }
+            }
+
+            .container-productos-carrito, .checkout {
+                font-size: large;
+            }
+        }
+    }
+    
+/*
+! --- CIERRE MEDIA --- */
+}
+
+
+@media (min-width: 530px) { /* mayor a 530px */
+
+    /*
+    ! -------------------- PÁGINA INICIO -------------------- */
+    /*--- SLOGAN ---*/
+    .slogan {
+        box-sizing: border-box;
+        margin: 8ex 10% 3ex 10%;
+        margin-top: 8ex;
+        text-align: center;
+    
+        & h3 {
+            color: black;
+            opacity: 60%;
+            font-size: xx-large;
+            font-family: 'Cookie', cursive;
+            text-align: start;
+    
+            & span {
+                text-align: end;
+            }
+        }
+    }
+
+    /*
+    ! -------------------- PÁGINA PRODUCTO -------------------- */
+    #body-producto-brampton, #body-producto-kamloops, #body-producto-quebec,
+    #body-producto-regina, #body-producto-toronto, #body-producto-vancouver,
+    #body-producto-candleskit, #body-producto-duoambar, #body-producto-duocement,
+    #body-producto-barrie, #body-producto-burnaby, #body-producto-calgary, #body-producto-halminton,
+    #body-producto-duomontreal, #body-producto-oshawa, #body-producto-surrey, #body-producto-whistler,
+    #body-producto-windsor, #body-producto-gc2500, #body-producto-gc3000, #body-producto-gc5000 {
+
+        #header-surrey, #header-barrie, #header-calgary, #header-burnaby,
+        #header-halminton, #header-duomontreal, #header-oshawa, #header-whistler,
+        #header-windsor, #header-duocement, #header-candleskit, #header-duoambar,
+        #header-brampton, #header-kamloops, #header-quebec, #header-regina, #header-toronto,
+        #header-vancouver, #header-gc2500, #header-gc3000, #header-gc5000 {
+            button {
+                a {
+                    margin: 0 4ex;
+
+                }
+            }
+
+            .carrito {
+                margin: 3ex 4ex;
+
+            }
+        }
+        
+        #main-producto {
+            margin: 3ex 4ex;
+        }
+    }
+    
+/*
+! --- CIERRE MEDIA --- */
+}
+
+@media (min-width: 630px) { /* mayor a 630px */
+
+    /*
+    ! -------------------- PÁGINA INICIO -------------------- */
+    /*--- SLOGAN ---*/
+    .slogan {
+        box-sizing: border-box;
+        margin: 8ex 15% 3ex 15%;
+        margin-top: 8ex;
+        text-align: center;
+    
+        & h3 {
+            color: black;
+            opacity: 60%;
+            font-size: xx-large;
+            font-family: 'Cookie', cursive;
+            text-align: start;
+    
+            & span {
+                text-align: end;
+            }
+        }
+    }
+
+/*
+! --- CIERRE MEDIA --- */
+}
+
+@media (min-width: 700px) { /* mayor a 700px */
+
+    /*
+    ! -------------------- PÁGINA INICIO -------------------- */
+    /*--- SLOGAN ---*/
+    .slogan {
+        box-sizing: border-box;
+        margin: 8ex 20% 3ex 20%;
+        margin-top: 8ex;
+        text-align: center;
+    
+        & h3 {
+            color: black;
+            opacity: 60%;
+            font-size: xx-large;
+            font-family: 'Cookie', cursive;
+            text-align: start;
+    
+            & span {
+                text-align: end;
+            }
+    
+        }
+    }
+/*
+! --- CIERRE MEDIA --- */
+}
+
+
+
+

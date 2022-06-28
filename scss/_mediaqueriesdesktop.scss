@@ -1,0 +1,544 @@
+
+/* 
+todo MAYOR A 769PX */
+
+@media (min-width: 769px) {
+    /*
+    ! -------------------- MENÚ HAMBURGUESA | LOGO | CARRITO -------------------- */
+    #container-menu-carrito-logo {
+        display: none;
+    }
+
+    /*
+    ! -------------------- MENÚ DESKTOP -------------------- */
+    #menu-desktop {
+        margin: 5ex 6ex;
+    }
+
+    /*
+    ! -------------------- SLOGAN -------------------- */
+    .slogan {
+        display: none;
+    }
+
+    /*
+    ! -------------------- SHOP -------------------- */
+    .container-shop {
+        margin-top: 23.5ex;
+
+        & a {
+            
+            & h2 {
+                font-size: 3ex;
+            }
+        }
+    }
+
+    /*
+    ! -------------------- PÁGINA SHOP -------------------- */
+    #main-shop-mobile {
+        display: none;
+    }
+
+    /*
+    ! -------------------- PÁGINA PRODUCTO -------------------- */
+    #body-producto-brampton, #body-producto-kamloops, #body-producto-quebec,
+    #body-producto-regina, #body-producto-toronto, #body-producto-vancouver,
+    #body-producto-candleskit, #body-producto-duoambar, #body-producto-duocement,
+    #body-producto-barrie, #body-producto-burnaby, #body-producto-calgary, #body-producto-halminton,
+    #body-producto-duomontreal, #body-producto-oshawa, #body-producto-surrey, #body-producto-whistler,
+    #body-producto-windsor, #body-producto-gc2500, #body-producto-gc3000, #body-producto-gc5000 {
+
+        #header-surrey, #header-barrie, #header-calgary, #header-burnaby,
+        #header-halminton, #header-duomontreal, #header-oshawa, #header-whistler,
+        #header-windsor, #header-duocement, #header-candleskit, #header-duoambar,
+        #header-brampton, #header-kamloops, #header-quebec, #header-regina, #header-toronto,
+        #header-vancouver, #header-gc2500, #header-gc3000, #header-gc5000 {
+            display: none;
+        }
+
+        #main-producto, #main-giftcard {
+            display: none;
+        }
+    }
+
+
+/*
+todo ------ NUEVO ------ */
+#body-producto-duoambar  {
+    background-image: url(../images/duo-ambar-.png);
+}
+#body-producto-candleskit {
+    background-image: url(../images/kit-.png);
+}
+#body-producto-duocement {
+    background-image: url(../images/duo-cement-.png);
+}
+/*
+todo ------ VELAS ------ */
+#body-producto-oshawa {
+    background-image: url(../images/oshawa-.png);
+}
+#body-producto-burnaby {
+    background-image: url(../images/burnaby-.png);
+}
+#body-producto-calgary {
+    background-image: url(../images/calgary-.png);
+}
+#body-producto-surrey {
+    background-image: url(../images/surrey-.png);
+}
+#body-producto-whistler {
+    background-image: url(../images/whistler-.png);
+}
+#body-producto-duomontreal {
+    background-image: url(../images/montreal-.png);
+}
+#body-producto-windsor {
+    background-image: url(../images/windsor-.png);
+}
+#body-producto-barrie {
+    background-image: url(../images/barrie-.png);
+}
+#body-producto-halminton {
+    background-image: url(../images/halminton-.png);
+}
+/*
+todo ------ DIFUSORES ------ */
+#body-producto-brampton {
+    background-image: url(../images/brampton-.png);
+}
+#body-producto-kamloops {
+    background-image: url(../images/kamloops-.png);
+}
+#body-producto-quebec {
+    background-image: url(../images/quebec-.png);
+}
+#body-producto-regina {
+    background-image: url(../images/regina-.png);
+}
+#body-producto-toronto {
+    background-image: url(../images/toronto-.png);
+}
+#body-producto-vancouver {
+    background-image: url(../images/vancouver-.png);
+}
+/*
+todo ------ GIFT CARDS ------ */
+#body-producto-gc2500 {
+    background-image: url(../images/gc2500-.png);
+}
+#body-producto-gc3000 {
+    background-image: url(../images/gc3000-.png);
+}
+#body-producto-gc5000 {
+    background-image: url(../images/gc5000-.png);
+}
+
+    /*
+    ! -------------------- PÁGINA NOSOTROS -------------------- */
+    #header-nosotros {
+        display: none;
+    }
+
+    /*
+    ! -------------------- PÁGINA FAQ'S -------------------- */
+    #header-faqs {
+        display: none;
+    }
+
+    /*
+    ! -------------------- PÁGINA CONTACTO -------------------- */
+    #body-contacto {
+        position: relative;
+        background-position: center;
+
+        #header-contacto {
+            min-height: inherit;
+
+            .volver {
+                display: none;
+            }
+
+            .container-logo-contacto {
+                display: none;
+            }
+        }
+    
+        #main-contacto {
+            width: 50%;
+            position: absolute;
+            right: 4ex;
+            z-index: -1; // ? sino queda sobre el menú
+            margin: 0;
+    
+            form {
+                width: 100%;
+                font-family: 'Abel', sans-serif;
+        
+                .container-input {
+                    width: 100%;
+                    position: relative;
+                    border-bottom: 2px solid rgba(124, 124, 124, 0.24);
+                    margin-bottom: 27px;
+        
+                    input {
+                        letter-spacing: 0.2ex;
+                        outline: none;
+                        border: none;
+                        height: 45px;
+                        display: block;
+                        width: 100%;
+                        background: 0 0;
+                        font-size: 15px;
+                        line-height: 1.2;
+    
+                        &::placeholder {
+                            color: rgb(85, 85, 85);
+                        }
+                    }
+        
+                    .linea-focus {
+                        position: absolute;
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        left: 0;
+                        pointer-events: none;
+        
+                        &::before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            bottom: -2px;
+                            left: 0;
+                            width: 0;
+                            height: 1px;
+                            transition: all .4s;
+                            background: rgb(0, 0, 0);
+                        }
+                    }
+        
+                    textarea {
+                        background-color: transparent;
+                        letter-spacing: 0.2ex;
+                        width: 100%;
+                        min-height: 115px;
+                        padding-top: 13px;
+                        padding-bottom: 13px;
+                        outline: none;
+                        border: none;
+                        overflow: auto;
+                        resize: vertical;
+    
+                        &::placeholder {
+                            color: rgb(85, 85, 85);
+                        }
+                    }
+                }
+        
+                .entrada:focus+.linea-focus::before {
+                    width: 100%;
+                }
+        
+                .container-enviar {
+                    button {
+                        text-transform: lowercase;
+                        letter-spacing: 0.3ex;
+                        background-color: transparent;
+                        border: none;
+                        border-bottom: 1px solid black;
+                        padding-bottom: 1.5ex;
+    
+                        &:hover {
+                            font-weight: bold;
+                        }
+                    }
+                }
+        
+                /*
+                ? dentro del container no lo toma */
+                button {
+                    padding: 0;
+                }
+            }
+
+            .container-redes-contacto {
+                display: none;
+            }
+        }
+    }
+
+    /*
+    ! -------------------- PÁGINA CARRITO  -------------------- */
+    #body-carrito {
+        #header-carrito {
+            display: none;
+        }
+    
+        #main-carrito {
+            display: none;
+        }
+    }
+
+
+    /*
+    ! -------------------- PIE DE PÁGINA MOBILE -------------------- */
+    #footer-mobile {
+        display: none;
+    }
+/*
+! --- CIERRE MEDIA --- */
+}
+
+
+
+/* 
+todo MAYOR A 900PX */
+
+@media (min-width: 900px) {
+    /*
+    ! -------------------- MENÚ | LOGO -------------------- */
+    #menu-desktop {
+        margin: 5ex 6ex;
+
+        .container-menu {
+            .container-items-izquierda {
+        
+                & ul {
+                    font-size: 2ex;
+
+                    .dropdown {
+                        .dropdown-menu {
+                            min-width: 350px;
+                            background-color: #E8E8E6;
+                            transform: translate(-30px, 27px) !important;
+                
+                            .mb-3 { 
+                                & input {
+                                    border: none;
+                                    border-bottom: 1px solid rgb(126, 126, 126);
+                                    margin-left: 2px;
+                                    width: 93%;
+                                    background-color: #E8E8E6;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .container-logo-desktop {
+                & img {
+                    width: 16ex;
+                }
+            
+                & h1 {
+                    font-size: x-large;
+                }
+            }
+
+            .container-items-derecha {
+                & ul {
+                    font-size: 2ex;
+                }
+            } 
+        }
+    }
+
+    /*
+    ! -------------------- SHOP -------------------- */
+    .container-shop {
+        margin-top: 22.5ex;
+
+        & a {
+            
+            & h2 {
+                font-size: 3ex;
+            }
+        }
+    }
+
+    /*
+    ! -------------------- PÁGINA SHOP -------------------- */
+    #main-shop-desktop {
+        .container-titulo-filtro-desktop {
+            .titulo-desktop {
+                & h1 {
+                    font-size: 3ex;
+                }
+            }
+
+            .filtro-desktop {
+                font-size: 2ex;
+            }
+        }
+
+        .row {
+            .col-2 {
+                .container-submenu {
+                    font-size: 2ex;
+                }
+            }
+        }
+    }
+    
+    /*
+    ! -------------------- PÁGINA PRODUCTO -------------------- */
+    #body-producto-brampton, #body-producto-kamloops, #body-producto-quebec,
+    #body-producto-regina, #body-producto-toronto, #body-producto-vancouver,
+    #body-producto-candleskit, #body-producto-duoambar, #body-producto-duocement,
+    #body-producto-barrie, #body-producto-burnaby, #body-producto-calgary, #body-producto-halminton,
+    #body-producto-duomontreal, #body-producto-oshawa, #body-producto-surrey, #body-producto-whistler,
+    #body-producto-windsor, #body-producto-gc2500, #body-producto-gc3000, #body-producto-gc5000 {
+
+        #header-surrey, #header-barrie, #header-calgary, #header-burnaby,
+        #header-halminton, #header-duomontreal, #header-oshawa, #header-whistler,
+        #header-windsor, #header-duocement, #header-candleskit, #header-duoambar,
+        #header-brampton, #header-kamloops, #header-quebec, #header-regina, #header-toronto,
+        #header-vancouver, #header-gc2500, #header-gc3000, #header-gc5000 {
+
+            button {
+                a {
+                    margin: 0 4ex;
+
+                }
+            }
+
+            .carrito {
+                margin: 3ex 4ex;
+
+            }
+        }
+        
+        #main-producto-desktop {
+            .container-detalles-producto {
+                margin: 0ex 6ex 0ex 4ex;
+                display: flex;
+                flex-direction: column;
+    
+                .titulo-precio-producto {
+                    font-size: 3.2ex;
+                }
+
+                .aromas {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    flex-wrap: wrap;
+                    margin: 5ex 0;
+    
+                    p {
+                        font-size: 2.5ex;
+                    }    
+                }
+            }
+        }
+    }
+
+    /*
+    ! -------------------- PÁGINA CONTACTO -------------------- */
+    #body-contacto {
+        #main-contacto {
+            width: 45%;
+            right: 8ex;
+        }
+    }
+
+
+/*
+! --- CIERRE MEDIA --- */
+}
+
+
+
+/* 
+todo MAYOR A 1200PX */
+
+@media (min-width: 1200px) { /* mayor a 1200px */
+    /*
+    ! -------------------- PÁGINA INICIO -------------------- */
+    #body-index {
+        background-position: top;
+        .container-shop {
+            margin-top: 24ex;
+        }
+    }
+
+/*
+! --- CIERRE MEDIA --- */
+}
+
+
+
+/* 
+todo MAYOR A 1400PX */
+
+@media (min-width: 1400px) {
+    /*
+    ! -------------------- MENÚ DESKTOP -------------------- */
+    #menu-desktop {
+        margin: 5ex 8ex;
+
+        .container-menu {
+            .container-items-izquierda {
+        
+                & ul {
+                    font-size: 2.7ex;
+
+                    .dropdown {
+                        .dropdown-menu {
+                            min-width: 350px;
+                            background-color: #E8E8E6;
+                            transform: translate(-30px, 27px) !important;
+                
+                            .mb-3 { 
+                                & input {
+                                    border: none;
+                                    border-bottom: 1px solid rgb(126, 126, 126);
+                                    margin-left: 2px;
+                                    width: 93%;
+                                    background-color: #E8E8E6;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .container-logo-desktop {
+                & img {
+                    width: 22ex;
+                }
+            
+                & h1 {
+                    font-size: 4ex;
+                }
+            }
+
+            .container-items-derecha {
+                & ul {
+                    font-size: 2.7ex;
+                }
+            } 
+        }
+    }
+
+    /*
+    ! -------------------- PÁGINA INICIO -------------------- */
+    #body-index {
+        .container-shop {
+            margin-top: 24ex;
+
+            & a {
+                
+                & h2 {
+                    font-size: 4ex;
+                }
+            }
+        }
+    }
+/*
+! --- CIERRE MEDIA --- */
+}

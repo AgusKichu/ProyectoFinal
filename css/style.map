@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"* {\r\n    text-decoration: none;\r\n    list-style: none;\r\n}\r\n\r\n/* ------------------- MENÚ HAMBURGUESA ------------------- */\r\n/* --- CONTENEDOR GENERAL --- */\r\n.offcanvas.offcanvas-start {\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    border-right: 0px;\r\n    transform: translateX(-100%);\r\n}\r\n\r\n/* --- HAMBURGUESA --- */\r\n.btn {\r\n    background-color: transparent;\r\n    border: 0px;\r\n    --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba((255, 255, 255));\r\n\r\n    &:hover {\r\n        background-color: transparent;\r\n        border: 0px;\r\n    }\r\n}\r\n\r\n.btn-check:focus+.btn, .btn:focus {\r\n    background-color: transparent;\r\n    border: transparent;\r\n    box-shadow: 0px transparent;\r\n}\r\n\r\n/* --- BOTÓN X --- */\r\n.btn-close {\r\n    background-color: transparent;\r\n    border: 0px;\r\n    --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba((255, 255, 255));\r\n}\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ";;AAAA,AAAA,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;EACrB,UAAU,EAAE,IAAI,GACnB;;AAED,8DAA8D;AAC9D,gCAAgC;;AAChC,AAAA,UAAU,AAAA,gBAAgB,CAAC;EACvB,GAAG,EAAE,CAAC;EACN,IAAI,EAAE,CAAC;EACP,KAAK,EAAE,IAAI;EACX,YAAY,EAAE,GAAG;EACjB,SAAS,EAAE,iBAAiB,GAC/B;;AAED,yBAAyB;;AACzB,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,WAAW;EAC7B,MAAM,EAAE,GAAG;EACX,yBAAyB,CAAA,oCAAC,GAM7B;;EATD,AAKI,IALA,AAKC,MAAM,CAAC;IACJ,gBAAgB,EAAE,WAAW;IAC7B,MAAM,EAAE,GAAG,GACd;;;AAGL,AAAA,UAAU,AAAA,MAAM,GAAC,IAAI,EAAE,IAAI,AAAA,MAAM,CAAC;EAC9B,gBAAgB,EAAE,WAAW;EAC7B,MAAM,EAAE,WAAW;EACnB,UAAU,EAAE,eAAe,GAC9B;;AAED,qBAAqB;;AACrB,AAAA,UAAU,CAAC;EACP,gBAAgB,EAAE,WAAW;EAC7B,MAAM,EAAE,GAAG;EACX,yBAAyB,CAAA,oCAAC,GAC7B"
+}

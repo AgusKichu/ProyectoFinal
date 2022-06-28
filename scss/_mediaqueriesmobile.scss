@@ -1,0 +1,42 @@
+
+@media (min-width: 350px) { /* mayor a 350px */
+    /*
+    ! -------------------- PIE DE PÁGINA -------------------- */
+    #footer-mobile {
+        margin: 5ex 3ex 0 3ex;
+
+        .grupo-documentos {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            bottom: 0;
+        }
+    }
+
+    /*
+    ! -------------------- PÁGINA PRODUCTO -------------------- */
+    #body-producto-brampton, #body-producto-kamloops, #body-producto-quebec,
+    #body-producto-regina, #body-producto-toronto, #body-producto-vancouver,
+    #body-producto-candleskit, #body-producto-duoambar, #body-producto-duocement,
+    #body-producto-barrie, #body-producto-burnaby, #body-producto-calgary, #body-producto-halminton,
+    #body-producto-duomontreal, #body-producto-oshawa, #body-producto-surrey, #body-producto-whistler,
+    #body-producto-windsor, #body-producto-gc2500, #body-producto-gc3000, #body-producto-gc5000 {
+        #main-producto {
+            .container-detalles-producto {
+                .aromas {
+                    .aromas-1, .aromas-2 {    
+                        button {
+                            label {
+                                font-size: 2.5ex;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+/*
+! --- CIERRE MEDIA --- */  
+}
